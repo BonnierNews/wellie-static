@@ -1,1 +1,0 @@
-Wellie tackar för sig
