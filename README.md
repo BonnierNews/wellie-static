@@ -1,2 +1,1 @@
-# wellie-static
-Wellie static
+Wellie tackar för sig
