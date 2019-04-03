@@ -1,0 +1,91 @@
+.goodbye-content {
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.goodbye-message {
+	background-color: #00a99d;
+	padding:1.5em;
+	color:white;
+}
+
+article {
+	margin-top:10em;
+}
+
+.logotype-wrapper {
+	text-align:center;
+	margin-bottom:3em;
+}
+
+.box {
+  position: relative;
+}
+
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #00a99d;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00a99d;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+}
+
+.fa-envelope-open-text {
+	font-size:1.25em;
+	color:silver;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+	color:silver;
+}
+
+.goodbye-message a {
+	color:white;
+}
+
+.customer-service-wrapper {
+	text-align:right;
+	margin-top:1em;
+	margin-right:1em;
+	font-size:90%;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+	article {
+		margin-top:2em;
+	}
+
+	.logotype-wrapper {
+		margin-bottom:1em;
+	}
+
+	.footer {
+		margin-bottom:5em;
+	}
+
+	.avocado_image_wrapper img {
+		max-width:80%;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
